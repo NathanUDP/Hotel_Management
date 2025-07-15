@@ -75,6 +75,6 @@ class Staff:
         self.name = name
         self.position = position
         self.tenure = tenure
-        self.payrate = salary
+        self.salary = salary
 
         Staff.all.append(self)
